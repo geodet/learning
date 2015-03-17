@@ -6,7 +6,6 @@ void vectorproduct(double u[3], double v[3], double w[3]) {
   w[2] = (u[0]*v[1])-(u[1]*v[0]);
   printf("Vectorproduction W = (%f, %f, %f)\n", w[0], w[1], w[2]);
 }
-
 main() {
   double u[3]={0, 0, 0};
   double v[3]={0, 0, 0};
